@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Program Files\\scala-cli-x86_64-pc-win32\\scala-cli.exe",
+    "bsp",
+    "--json-options",
+    "E:\\3stagervproc\\src\\main\\scala\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "E:\\3stagervproc\\src\\main\\scala\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "E:\\3stagervproc\\src\\main\\scala\\.scala-build\\ide-envs.json",
+    "E:\\3stagervproc\\src\\main\\scala\\riscvproc.scala"
+  ],
+  "version": "1.7.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

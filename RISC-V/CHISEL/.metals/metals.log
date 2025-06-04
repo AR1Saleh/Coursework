@@ -1,0 +1,404 @@
+2025.05.07 15:45:08 INFO  Started: Metals version 1.5.2 in folders '/media/abdul-rehman/EEAA8292AA82574D/3stagervproc' for client Visual Studio Code 1.92.1.
+2025.05.07 15:45:09 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:10 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:10 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:14 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.07 15:45:14 WARN  no build target for: /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project/metals.sbt
+2025.05.07 15:45:14 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:14 WARN  no build target for: /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project/project/metals.sbt
+2025.05.07 15:45:14 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:14 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:15 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.05.07 15:45:15 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by net.openhft.hashing.UnsafeAccess (file:/home/abdul-rehman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.8/zero-allocation-hashing-0.10.1.jar)
+2025.05.07 15:45:15 ERROR WARNING: Please consider reporting this to the maintainers of class net.openhft.hashing.UnsafeAccess
+2025.05.07 15:45:15 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+2025.05.07 15:45:15 ERROR WARNING: A restricted method in java.lang.System has been called
+2025.05.07 15:45:15 ERROR WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/home/abdul-rehman/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.8/jna-5.13.0.jar)
+2025.05.07 15:45:15 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+2025.05.07 15:45:15 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+2025.05.07 15:45:15 ERROR 
+2025.05.07 15:45:15 ERROR May 07, 2025 3:45:15 PM org.jline.utils.Log logr
+2025.05.07 15:45:15 ERROR WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2025.05.07 15:45:16 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025.05.07 15:45:16 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 24.0.1)
+2025.05.07 15:45:16 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:17 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:17 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:18 INFO  [info] loading settings for project root-3stagervproc-build-build-build from metals.sbt ...
+2025.05.07 15:45:18 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:18 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:19 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:18 INFO  [info] loading project definition from /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project/project/project
+2025.05.07 15:45:19 INFO  
+2025.05.07 15:45:19 INFO    | => root-3stagervproc-build-build-build / update 0s
+2025.05.07 15:45:20 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.9/sbt-bloop_2.12_1.0-2.0.9.pom
+2025.05.07 15:45:19 INFO  
+2025.05.07 15:45:19 INFO    | => root-3stagervproc-build-build-build / update 0s
+2025.05.07 15:45:20 INFO  
+2025.05.07 15:45:20 INFO    | => root-3stagervproc-build-build-build / update 1s
+2025.05.07 15:45:21 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:20 INFO  
+2025.05.07 15:45:20 INFO    | => root-3stagervproc-build-build-build / update 2s
+2025.05.07 15:45:21 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.9/sbt-bloop_2.12_1.0-2.0.9.pom
+2025.05.07 15:45:21 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom
+2025.05.07 15:45:21 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:21 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.pom
+2025.05.07 15:45:21 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.9/sbt-bloop_2.12_1.0-2.0.9.jar
+2025.05.07 15:45:21 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.jar
+2025.05.07 15:45:22 INFO  
+2025.05.07 15:45:22 INFO    | => root-3stagervproc-build-build-build / update 3s
+2025.05.07 15:45:23 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.9/sbt-bloop_2.12_1.0-2.0.9.jar
+2025.05.07 15:45:23 INFO  
+2025.05.07 15:45:23 INFO    | => root-3stagervproc-build-build-build / update 4s
+2025.05.07 15:45:23 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.jar
+2025.05.07 15:45:24 INFO  [info] loading settings for project root-3stagervproc-build-build from metals.sbt ...
+2025.05.07 15:45:24 INFO  [info] loading project definition from /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project/project
+2025.05.07 15:45:24 INFO  
+2025.05.07 15:45:24 INFO    | => root-3stagervproc-build-build / update 0s
+2025.05.07 15:45:24 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 0s
+2025.05.07 15:45:26 INFO  
+2025.05.07 15:45:26 INFO    | => root-3stagervproc-build-build / update 0s
+2025.05.07 15:45:26 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 0s
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.18/scala-compiler-2.12.18-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.9.8/completion_2.12-1.9.8-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1-sources.jar
+2025.05.07 15:45:26 INFO  
+2025.05.07 15:45:26 INFO    | => root-3stagervproc-build-build / update 1s
+2025.05.07 15:45:26 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 1s
+2025.05.07 15:45:26 ERROR Downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5-sources.jar
+2025.05.07 15:45:26 ERROR Downloaded https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0-sources.jar
+2025.05.07 15:45:26 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.9.8/sbt-1.9.8-sources.jar
+2025.05.07 15:45:26 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.9.8/sbt-1.9.8-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.9.8/util-tracking_2.12-1.9.8-sources.jar
+2025.05.07 15:45:26 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5-sources.jar
+2025.05.07 15:45:26 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.8/util-logging_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.9.8/util-tracking_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1-sources.jar
+2025.05.07 15:45:27 INFO  
+2025.05.07 15:45:27 INFO    | => root-3stagervproc-build-build / update 2s
+2025.05.07 15:45:27 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 2s
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.8/util-logging_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.9.8/completion_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.9.8/command_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.9.8/run_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5-sources.jar
+2025.05.07 15:45:27 INFO  
+2025.05.07 15:45:27 INFO    | => root-3stagervproc-build-build / update 2s
+2025.05.07 15:45:27 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 2s
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.9.8/run_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.9.8/command_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.8/core-macros_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.8/util-relation_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.8/util-relation_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.8/collections_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.8/core-macros_2.12-1.9.8-sources.jar
+2025.05.07 15:45:27 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1-sources.jar
+2025.05.07 15:45:28 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5-sources.jar
+2025.05.07 15:45:28 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2-sources.jar
+2025.05.07 15:45:28 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1-sources.jar
+2025.05.07 15:45:28 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.8/util-interface-1.9.8-sources.jar
+2025.05.07 15:45:28 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.8/collections_2.12-1.9.8-sources.jar
+2025.05.07 15:45:28 ERROR Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0-sources.jar
+2025.05.07 15:45:28 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2-sources.jar
+2025.05.07 15:45:28 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.8/main_2.12-1.9.8-sources.jar
+2025.05.07 15:45:28 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.8/util-interface-1.9.8-sources.jar
+2025.05.07 15:45:28 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.9.8/testing_2.12-1.9.8-sources.jar
+2025.05.07 15:45:29 INFO  
+2025.05.07 15:45:29 INFO    | => root-3stagervproc-build-build / update 3s
+2025.05.07 15:45:29 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 3s
+2025.05.07 15:45:28 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.9.8/testing_2.12-1.9.8-sources.jar
+2025.05.07 15:45:28 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1-sources.jar
+2025.05.07 15:45:30 INFO  
+2025.05.07 15:45:30 INFO    | => root-3stagervproc-build-build / update 4s
+2025.05.07 15:45:30 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 4s
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.8/util-position_2.12-1.9.8-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.9.8/main_2.12-1.9.8-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.8/util-position_2.12-1.9.8-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.5/zinc-classfile_2.12-1.9.5-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.5/zinc-classfile_2.12-1.9.5-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.12/0.1.12/unroll-annotation_2.12-0.1.12-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1-sources.jar
+2025.05.07 15:45:29 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1-sources.jar
+2025.05.07 15:45:29 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.9.8/actions_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.12/0.1.12/unroll-annotation_2.12-0.1.12-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.8/util-control_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.9.8/zinc-lm-integration_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 INFO  
+2025.05.07 15:45:30 INFO    | => root-3stagervproc-build-build / update 5s
+2025.05.07 15:45:30 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 5s
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.10.0/scala-collection-compat_2.12-2.10.0-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.9.8/actions_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.8/io_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.8/util-control_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.9.8/main-settings_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.9.8/zinc-lm-integration_2.12-1.9.8-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.10.0/scala-collection-compat_2.12-2.10.0-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5-sources.jar
+2025.05.07 15:45:30 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3-sources.jar
+2025.05.07 15:45:30 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.9.8/task-system_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.9.8/task-system_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.18/scala-reflect-2.12.18-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.8/io_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.9.8/logic_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.9.8/main-settings_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.9.8/logic_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.9/sbt-bloop_2.12_1.0-2.0.9-sources.jar
+2025.05.07 15:45:32 INFO  
+2025.05.07 15:45:32 INFO    | => root-3stagervproc-build-build / update 6s
+2025.05.07 15:45:32 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 6s
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.9/sbt-bloop_2.12_1.0-2.0.9-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.8/util-cache_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
+2025.05.07 15:45:32 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.8/util-cache_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.9.8/scripted-plugin_2.12-1.9.8-sources.jar
+2025.05.07 15:45:31 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar
+2025.05.07 15:45:31 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18-sources.jar
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.9.8/scripted-plugin_2.12-1.9.8-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5-sources.jar
+2025.05.07 15:45:32 INFO  
+2025.05.07 15:45:32 INFO    | => root-3stagervproc-build-build / update 7s
+2025.05.07 15:45:32 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 7s
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2-sources.jar
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4-sources.jar
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.3/librarymanagement-ivy_2.12-1.9.3-sources.jar
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.8/test-agent-1.9.8-sources.jar
+2025.05.07 15:45:32 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.8/test-agent-1.9.8-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2-sources.jar
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.18/scala-reflect-2.12.18-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.9.8/tasks_2.12-1.9.8-sources.jar
+2025.05.07 15:45:32 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.3/librarymanagement-ivy_2.12-1.9.3-sources.jar
+2025.05.07 15:45:32 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.6.2/ipcsocket-1.6.2-sources.jar
+2025.05.07 15:45:34 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.9.8/tasks_2.12-1.9.8-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.9.8/protocol_2.12-1.9.8-sources.jar
+2025.05.07 15:45:34 INFO  
+2025.05.07 15:45:34 INFO    | => root-3stagervproc-build-build / update 8s
+2025.05.07 15:45:34 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 8s
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0-sources.jar
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0-sources.jar
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.9.8/protocol_2.12-1.9.8-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
+2025.05.07 15:45:34 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.6.2/ipcsocket-1.6.2-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1-sources.jar
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.18/scala-compiler-2.12.18-sources.jar
+2025.05.07 15:45:34 ERROR Downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.1.2/lm-coursier-shaded_2.12-2.1.2-sources.jar
+2025.05.07 15:45:34 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar
+2025.05.07 15:45:35 ERROR Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2-sources.jar
+2025.05.07 15:45:34 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / update 9s
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 9s
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18-sources.jar
+2025.05.07 15:45:35 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.9.5/zinc-compile_2.12-1.9.5-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.1.2/lm-coursier-shaded_2.12-2.1.2-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.9.5/zinc-compile_2.12-1.9.5-sources.jar
+2025.05.07 15:45:35 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:35 ERROR Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2-sources.jar
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 INFO  
+2025.05.07 15:45:35 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar
+2025.05.07 15:45:35 ERROR Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2-sources.jar
+2025.05.07 15:45:35 ERROR Downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
+2025.05.07 15:45:35 ERROR Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar
+2025.05.07 15:45:35 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0-sources.jar
+2025.05.07 15:45:36 INFO  
+2025.05.07 15:45:36 INFO    | => root-3stagervproc-build-build / updateClassifiers 0s
+2025.05.07 15:45:36 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 10s
+2025.05.07 15:45:36 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:36 INFO  
+2025.05.07 15:45:36 INFO    | => root-3stagervproc-build-build / updateClassifiers 1s
+2025.05.07 15:45:36 INFO    | => root-3stagervproc-build-build / updateSbtClassifiers 11s
+2025.05.07 15:45:36 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:37 ERROR Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2-sources.jar
+2025.05.07 15:45:37 ERROR (watching) Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2-sources.jar
+2025.05.07 15:45:37 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:37 INFO  [success] Generated .bloop/root-3stagervproc-build-build.json
+2025.05.07 15:45:37 INFO  
+2025.05.07 15:45:37 INFO    | => root-3stagervproc-build-build / Compile / bloopGenerate 0s
+2025.05.07 15:45:37 INFO  [success] Total time: 13 s, completed May 7, 2025, 3:45:37 PM
+2025.05.07 15:45:37 INFO  [info] loading settings for project root-3stagervproc-build from metals.sbt,plugins.sbt ...
+2025.05.07 15:45:37 INFO  [info] loading project definition from /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/project
+2025.05.07 15:45:38 INFO  
+2025.05.07 15:45:38 INFO    | => root-3stagervproc-build / updateSbtClassifiers 0s
+2025.05.07 15:45:38 INFO  
+2025.05.07 15:45:38 INFO    | => root-3stagervproc-build / updateClassifiers 0s
+2025.05.07 15:45:38 INFO  [success] Generated .bloop/root-3stagervproc-build.json
+2025.05.07 15:45:38 INFO  
+2025.05.07 15:45:38 INFO    | => root-3stagervproc-build / updateClassifiers 0s
+2025.05.07 15:45:38 INFO  [success] Total time: 1 s, completed May 7, 2025, 3:45:39 PM
+2025.05.07 15:45:39 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:39 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:39 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:40 INFO  [info] loading settings for project root from build.sbt ...
+2025.05.07 15:45:40 INFO  [info] set current project to riscv-core (in build file:/media/abdul-rehman/EEAA8292AA82574D/3stagervproc/)
+2025.05.07 15:45:40 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:40 INFO  
+2025.05.07 15:45:40 INFO    | => root / update 0s
+2025.05.07 15:45:41 ERROR Downloading https://repo1.maven.org/maven2/org/chipsalliance/cs/chiseltest_2.13/6.7.0/chiseltest_2.13-6.7.0.pom
+2025.05.07 15:45:41 ERROR Downloaded https://repo1.maven.org/maven2/org/chipsalliance/cs/chiseltest_2.13/6.7.0/chiseltest_2.13-6.7.0.pom
+2025.05.07 15:45:41 ERROR Downloading https://repo1.maven.org/maven2/org/chipsalliance/cs/chiseltest_2.13/6.7.0/chiseltest_2.13-6.7.0.pom.sha1
+2025.05.07 15:45:41 ERROR Downloaded https://repo1.maven.org/maven2/org/chipsalliance/cs/chiseltest_2.13/6.7.0/chiseltest_2.13-6.7.0.pom.sha1
+2025.05.07 15:45:41 INFO  [warn] 
+2025.05.07 15:45:41 INFO  
+2025.05.07 15:45:41 INFO    | => root / update 0s
+2025.05.07 15:45:41 INFO  [warn] 	Note: Unresolved dependencies path:
+2025.05.07 15:45:41 INFO  
+2025.05.07 15:45:41 INFO    | => root / update 0s
+2025.05.07 15:45:41 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2025.05.07 15:45:41 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.chipsalliance.cs:chiseltest_2.13:6.7.0
+2025.05.07 15:45:41 INFO  [error]   Not found
+2025.05.07 15:45:41 INFO  [error]   Not found
+2025.05.07 15:45:41 INFO  [error]   not found: /home/abdul-rehman/.ivy2/localorg.chipsalliance.cs/chiseltest_2.13/6.7.0/ivys/ivy.xml
+2025.05.07 15:45:41 INFO  [error]   not found: https://repo1.maven.org/maven2/org/chipsalliance/cs/chiseltest_2.13/6.7.0/chiseltest_2.13-6.7.0.pom
+2025.05.07 15:45:41 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2025.05.07 15:45:41 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2025.05.07 15:45:41 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2025.05.07 15:45:41 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2025.05.07 15:45:41 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2025.05.07 15:45:41 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2025.05.07 15:45:41 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2025.05.07 15:45:41 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+2025.05.07 15:45:41 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+2025.05.07 15:45:41 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+2025.05.07 15:45:41 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+2025.05.07 15:45:41 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+2025.05.07 15:45:41 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025.05.07 15:45:41 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.chipsalliance.cs:chiseltest_2.13:6.7.0
+2025.05.07 15:45:41 INFO  [error]   Not found
+2025.05.07 15:45:41 INFO  [error]   Not found
+2025.05.07 15:45:41 INFO  [error]   not found: /home/abdul-rehman/.ivy2/localorg.chipsalliance.cs/chiseltest_2.13/6.7.0/ivys/ivy.xml
+2025.05.07 15:45:41 INFO  [error]   not found: https://repo1.maven.org/maven2/org/chipsalliance/cs/chiseltest_2.13/6.7.0/chiseltest_2.13-6.7.0.pom
+2025.05.07 15:45:41 INFO  [error] Total time: 1 s, completed May 7, 2025, 3:45:41 PM
+2025.05.07 15:45:41 INFO  
+2025.05.07 15:45:42 INFO  time: ran 'sbt bloopInstall' in 27s
+2025.05.07 15:45:42 ERROR sbt command failed: /usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.05.07 15:45:42 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:42 WARN  no build target for: /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt
+2025.05.07 15:45:42 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:42 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:45:50 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:46:14 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:46:14 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:46:18 INFO  no build target found for /media/abdul-rehman/EEAA8292AA82574D/3stagervproc/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.07 15:46:19 INFO  Shutting down server
+2025.05.07 15:46:19 INFO  shutting down Metals
+2025.05.07 15:46:19 INFO  Exiting server

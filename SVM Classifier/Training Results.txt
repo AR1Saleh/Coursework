@@ -1,0 +1,38 @@
+==============================
+SVM
+==============================
+
+K-Fold Cross-Validation (k=8):
+Fold 1: Accuracy = 0.9319
+Fold 2: Accuracy = 0.8953
+Fold 3: Accuracy = 0.9319
+Fold 4: Accuracy = 0.9319
+Fold 5: Accuracy = 0.9058
+Fold 6: Accuracy = 0.9110
+Fold 7: Accuracy = 0.9058
+Fold 8: Accuracy = 0.9005
+
+CV Average Accuracy: 0.9143 ± 0.0143
+
+Test Set Performance:
+Accuracy: 0.9138
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Bird     0.9677    0.9783    0.9730        92
+         Cat     0.8198    0.9192    0.8667        99
+         Cow     0.9630    0.9811    0.9720        53
+         Dog     0.9070    0.7959    0.8478        98
+        Frog     1.0000    0.9512    0.9750        41
+
+    accuracy                         0.9138       383
+   macro avg     0.9315    0.9251    0.9269       383
+weighted avg     0.9167    0.9138    0.9135       383
+
+Confusion Matrix:
+[[90  2  0  0  0]
+ [ 1 91  0  7  0]
+ [ 1  0 52  0  0]
+ [ 0 18  2 78  0]
+ [ 1  0  0  1 39]]
